@@ -5,13 +5,13 @@ export const Container = styled.a`
     display: block;
     text-decoration: none;
     font-size: ${theme.font.sizes.small};
-    padding: ${theme.spacings.small};
+    padding: ${theme.spacings.xsmall};
     color: ${theme.colors.primaryColor};
     position: relative;
     &::after {
       content: '';
       position: absolute;
-      bottom: 0;
+      bottom: 0.76rem;
       left: 50%;
       width: 0;
       height: 0.2rem;
